@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>App Pesiber</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="mystylesheet.css">
+
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">APP PESIBER</a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="input.html">Input Siswa</a></li>
+				<li><a href="rangking.html">Ranking Siswa</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container-fluid">
+	<div class="jumbotron">
+		<h3 align="center">Input Siswa Baru</h3>
+		<hr>
+		<div class="form-group">
+			<input type="text" class="form-control" id="nama" maxlength="30" placeholder="Nama Siswa">
+		</div>
+		<div class="form-group">
+			<input type="number" class="form-control" id="raport" maxlength="2" placeholder="Ranking Raport">
+		</div>
+		<div class="form-group">
+			<input type="number" class="form-control" id="absensi" maxlength="2" placeholder="Ranking Absensi">
+		</div>
+		<div class="form-group">
+			<input type="number" class="form-control" id="sikap" maxlength="2" placeholder="Ranking Sikap">
+		</div>
+		<div class="form-group">
+			<input type="number" class="form-control" id="ekstra" maxlength="2" placeholder="Ranking Ekstra">
+		</div>
+		<div class="form-group">
+			<button class="btn btn-md btn-block btn-primary" id="simpan">Masukan Data</button>
+		</div>
+	</div>
+</div>
+
+<script src="jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="myscript.js"></script>
+
+</body>
+</html>
